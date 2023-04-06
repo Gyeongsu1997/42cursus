@@ -7,6 +7,6 @@
 
 |Project Name |Skill |Score |
 |:---:        |:---: |:---:	|
-|[Libft](https://gyeongsu1997.notion.site/Libft-66ba3bef388046e2b1b0c5755db0a8e5) |Algorithm&nbsp; |![gyechoi's 42 Libft Score](https://badge42.vercel.app/api/v2/clg4nlglu005408lb4d1pxbkq/project/3024476) |
+|[Libft](https://gyeongsu1997.notion.site/Libft-66ba3bef388046e2b1b0c5755db0a8e5) |Algorithm |![gyechoi's 42 Libft Score](https://badge42.vercel.app/api/v2/clg4nlglu005408lb4d1pxbkq/project/3024476) |
 |[ft_printf](https://gyeongsu1997.notion.site/ft_printf-printf-6d6691397dcb4d8dac61bd502fc96207) |Algorithm |![gyechoi's 42 ft_printf Score](https://badge42.vercel.app/api/v2/clg4nlglu005408lb4d1pxbkq/project/3033503) |
 |[get_next_line](https://gyeongsu1997.notion.site/get_next_line-a7030ca80fe6435a838660a8206e0414)		|Algorithm |![gyechoi's 42 get_next_line Score](https://badge42.vercel.app/api/v2/clg4nlglu005408lb4d1pxbkq/project/3033502) |
