@@ -3,7 +3,7 @@
 [![gyechoi's 42 stats](https://badge42.vercel.app/api/v2/clg4nlglu005408lb4d1pxbkq/stats?cursusId=21&coalitionId=85)](https://github.com/JaeSeoKim/badge42)
 
 ## Projects
-42서울 이너서클(공통 과정)에서 수행한 프로젝트 목록입니다. 프로젝트 이름을 누르면 노션 페이지로 이동합니다.
+42서울 이너 서클(공통 과정)에서 수행한 프로젝트 목록입니다. 프로젝트 이름을 누르면 노션 페이지로 이동합니다.
 
 |Project Name |Skill |Score |
 |:---:        |:---: |:---:	|
