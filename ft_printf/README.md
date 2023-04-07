@@ -93,6 +93,7 @@
  }
  ```
  > 실행 결과
- 
+ <img width="491" alt="ft_printf_1" src="https://user-images.githubusercontent.com/97381683/230554949-1e791700-e572-4a13-b1d8-9f6b43f5d7fd.png">
+
 <br>
 </details>
