@@ -1,4 +1,5 @@
-# ft_printf - printf에 반환값이 있었다니..!
+# ft_printf
+<b>printf에 반환값이 있었다니..!</b>
 
 표준 라이브러리 함수인 printf를 구현하는 과제이다. 가변 인자라는 새로운 개념이 등장한다. 이와 관련해 스택 영역 등 몰랐던 용어들을 새롭게 알게 되었고 컴퓨터 구조 등 CS 공부의 필요성을 느낀 과제였다.
 
@@ -94,6 +95,5 @@
  ```
  > 실행 결과
  <img width="491" alt="ft_printf_1" src="https://user-images.githubusercontent.com/97381683/230554949-1e791700-e572-4a13-b1d8-9f6b43f5d7fd.png">
-
 <br>
 </details>
