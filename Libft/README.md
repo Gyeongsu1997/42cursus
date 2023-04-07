@@ -46,7 +46,7 @@
  - size_t는 부호없는 정수 자료형으로 32비트 운영체제에서는 4바이트, 64비트 운영체제에서는 8바이트의 크기를 갖는다.
  - 하지만 unsigned int는 운영체제가 32비트이던 64비트이던 4바이트의 크기를 갖는다.
  - 따라서 운영체제에 따라 가능한 가장 큰 범위의 부호없는 정수형을 사용하고 싶을 때는 size_t를 사용한다.
- - 참고: [데이터 형식 범위](https://learn.microsoft.com/ko-kr/cpp/cpp/data-type-ranges?view=msvc-170)
+ > 참고: [데이터 형식 범위](https://learn.microsoft.com/ko-kr/cpp/cpp/data-type-ranges?view=msvc-170)
 <br>
 </details>
 
@@ -56,6 +56,6 @@
  - C99 표준 이전인 K&R 방식에서는 함수를 정의할 때 리턴타입이나 매개변수의 타입을 명시하지 않고 모두 int로 인식하는 ‘implicit int rule’이 적용되었다.
  - 또한 int로 받은 매개변수를 다른 타입으로 변환하고 싶으면 함수의 중괄호 밖에서 자료형을 명시해 주었다.
  - 결론적으로 이 시절의 관습이 남아있는 함수라서 그렇다.
- - 참고: [80년대 C언어는 어땠을까?](https://80000coding.oopy.io/31f3b397-1483-4a75-9d88-c99284e7f3ca)
+ > 참고: [80년대 C언어는 어땠을까?](https://80000coding.oopy.io/31f3b397-1483-4a75-9d88-c99284e7f3ca)
 <br>
 </details>
