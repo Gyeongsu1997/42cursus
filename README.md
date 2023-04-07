@@ -1,4 +1,4 @@
-<h1 align="center">42cursus</h1>
+![header](https://capsule-render.vercel.app/api?type=transparent&color=auto&height=120&section=header&text=42cursus&fontSize=70)
 
 ## About
 
