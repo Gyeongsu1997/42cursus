@@ -1,5 +1,10 @@
-# Libft
+![header](https://capsule-render.vercel.app/api?type=transparent&fontColor=703ee5&height=120&section=header&text=Libft&fontSize=70)
+
+<div align="center">
 <b>나만의 라이브러리 만들기</b>
+</div>
+
+---
 
 몇 개의 C 표준 라이브러리 함수들과 같은 프로토타입을 가지고 같은 동작을 하는 함수들을 구현하고 표준 라이브러리에 없는 함수나 라이브러리 함수와 다르게 동작하도록 스펙이 주어진 함수들을 구현하는 과제이다. 직접 구현한 함수들로 만든 라이브러리는 이후의 과제에서 사용된다고 한다.
 
