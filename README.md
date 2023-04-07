@@ -1,12 +1,26 @@
 ![header](https://capsule-render.vercel.app/api?type=transparent&fontColor=703ee5&height=120&section=header&text=42cursus&fontSize=70&desc=in%20seoul%20campus&descAlignY=75&descAlign=60)
 
+<h3 align="center">
+	<a href="#about">About</a>
+	<span> · </span>
+	<a href="#️profile">Profile</a>
+	<span> · </span>
+	<a href="#projects">Projects</a>
+</h3>
+
+---
+
 ## About
 
 42서울 본 과정을 진행하며 프로젝트를 통해 배운 것을 정리하였습니다.
 
+---
+
 ## Profile
 
 ![gyechoi's 42 stats](https://badge42.vercel.app/api/v2/clg4nlglu005408lb4d1pxbkq/stats?cursusId=21&coalitionId=85)
+
+---
 
 ## Projects
 
