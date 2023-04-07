@@ -9,53 +9,51 @@
  
  - 리눅스에서의 파일  디스크립터는 프로세스에서 열린 파일의 목록을 관리하는 테이블의 인덱스로 파일 디스크립터를 이용해 해당 파일의 주소를 참조하여 접근할 수 있다.
  - 파일 디스크립터는 0 이상의 정수값을 가지며 0은 표준 입력, 1은 표준 출력, 2는 표준 에러로 기본적으로 할당된다. 따라서 프로세스에서 파일을 열면 3번부터 차례대로 할당받게 된다.
- - [get_next_line](https://80000coding.oopy.io/4d3eba5f-5d2d-4bec-b0a2-fa058d67c643#56d19da82b7847a89d0eca867a9a2484)
+ - 참고: [get_next_line](https://80000coding.oopy.io/4d3eba5f-5d2d-4bec-b0a2-fa058d67c643#56d19da82b7847a89d0eca867a9a2484)
 <br>
 </details>
 
 <details>
-<summary><b>가변 인자 처리</b></summary>
+<summary><b>정적변수(static variable)</b></summary>
 
- - 가변 인자를 처리하기 위해서는 stdarg.h 헤더파일을 include하고 헤더파일에 정의되어 있는 va_list 타입의 변수(이하 ap)를 선언한다. va_list는 헤더 파일 내부에서 char *형으로 정의되어 있고 가변 인자의 주소를 담기 위한 포인터 변수에 해당한다.
- - 이후 va_start 매크로로 ap를 가변 인자의 시작 주소로 초기화 해주어야 한다.
- - va_start 매크로는 void va_start(va_list ap, last)와 같은 프로토타입을 가지며 last에는 가변 인자가 오기 전 타입을 알고 있는 마지막 매개변수명을 넣어준다.
- - 이 last에 대해 man page에 아래와 같은 부연 설명이 적혀있다.
- > Because the address of this parameter is used in the va_start() macro, it should not be declared as a register variable, or as a function or an array type.
- - 처음에는 문자열도 array type이니 last에 넣으면 안되는것 아닌가 하고 생각했지만 문자열은 ‘\0’로 끝난다고 약속되어 있으니 문자열의 끝을 알 수 있으므로 사용할 수 있는것 같다.
- - ap를 초기화하면 va_arg 매크로를 통해 가변 인자를 하나씩 꺼내올 수 있다.
- - va_arg 매크로는 type va_arg(va_list ap, type)와 같은 프로토타입을 가지며 type에는 미리 알고 있는 가변 인자의 type을 넣어주어 해당 byte만큼의 데이터를 type 형으로 반환한다. va_arg 매크로를 호출하면 ap가 변형되어 다음번에 호출할 때는 다음 가변 인자를 꺼내올 수 있도록 한다.
- - 가변 인자의 사용이 끝나면 va_end 매크로를 호출해 ap에 널 포인터를 대입하여 ap의 사용을 종료한다.
- - 매크로 사용 예시는 아래와 같다.
+ - 정적변수는 전역변수처럼 프로그램이 시작될때 메모리에 생성되고 프로그램이 종료될때 소멸되는 변수이다. 이때 초기값이 있으면 Data 영역에 생성되고 초기값이 없으면 BSS 영역에 생성되어 초기값으로 0이 들어간다고 한다.
+ - 정적변수는 다시 정적 지역변수와 정적 전역변수로 나뉘는데 정적 지역변수는 함수의 중괄호 안에서만 사용할 수 있고 정적 전역변수는 해당 소스파일 내부에서만 사용할 수 있다. 따라서 전역변수처럼 extern 키워드를 이용해 외부 파일에서 참조하는 것이 불가능하다.
+ - 정적 변수는 초기화가 한번만 진행되므로 함수의 실행이 끝나고 다시 함수를 호출해도 기존에 가지고 있던 값을 그대로 가지고 있다.
+ - 참고: [c언어 정적변수, 지역변수, 전역변수 비교 (static, local, global)](https://code4human.tistory.com/128)
+ - 이번 과제에서는 위와 같은 정적변수의 특성을 이용해 포인터 변수를 정적변수로 선언하여 사용한다. 그런데 주의할 점이 있다. 아래와 같이 포인터 변수에 동적으로 할당받은 메모리 주소를 대입하면 함수를 다시 호출했을 때 포인터 변수에 주소값이 남아있고 문자열을 출력한 결과도 동일하다.
  ```c
- #include <stdarg.h>
- #include <unistd.h>
+ #include <stdlib.h>
+ #include <stdio.h>
 
- int ft_printf(const char *fmt, ...)
+ void test(void)
  {
-	 va_list ap;
-	 char c;
+	 static char *ptr;
 
-	 va_start(ap, fmt);
-	 while (*fmt)
+	 if (!ptr)
 	 {
-		 if (*fmt == '%')
-		 {
-			 if (*(++fmt) == 'c')
-			 {
-				 c = va_arg(ap, int);
-				 write(1, &c, 1);
-			 }
-			 ...
-		 }
-		 else
-			 write(1, fmt, 1);
-		 ...
-		 fmt++;
+		 ptr = (char *)malloc(sizeof(char) * 3);
+		 ptr[0] = '4';
+		 ptr[1] = '2';
+		 ptr[2] = '\0';
 	 }
-	 va_end(ap);
-	 ...
+	 printf("%p: %s\n", ptr, ptr);
+ }
+
+ void test2(void)
+ {
+	 char str[3] = "17";
+ }
+
+ int main(void)
+ {
+	 test();
+	 test2();
+	 test();
+	 return (0);
  }
  ```
+ > 실행 결과
+ 
 <br>
 </details>
 
