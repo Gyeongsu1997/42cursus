@@ -54,6 +54,7 @@
  ```
  > 실행 결과
  <img width="392" alt="get_next_line_1" src="https://user-images.githubusercontent.com/97381683/230557111-6f644c02-f04a-4498-8e19-cdf46159194e.png">
+ 
  - 그러나 아래와 같이 포인터 변수에 정적 배열의 주소를 대입하고 함수를 다시 호출하면 포인터 변수의 주소값은 그대로지만 문자열을 출력했을 때의 결과가 달라진 것을 확인할 수 있다.
  ```c
  #include <stdio.h>
