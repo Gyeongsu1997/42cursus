@@ -1,7 +1,8 @@
 ## About
 
+42서울 본 과정을 진행하며 프로젝트를 통해 배운 것을 정리하였습니다.
 
-## My Profile
+## Profile
 
 ![gyechoi's 42 stats](https://badge42.vercel.app/api/v2/clg4nlglu005408lb4d1pxbkq/stats?cursusId=21&coalitionId=85)
 
