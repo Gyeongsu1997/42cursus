@@ -1,4 +1,4 @@
-![header](https://capsule-render.vercel.app/api?type=transparent&fontColor=703ee5&height=120&section=header&text=42cursus&fontSize=70)
+![header](https://capsule-render.vercel.app/api?type=transparent&fontColor=703ee5&height=120&section=header&text=42cursus&fontSize=70desc=in seoul campus&descAlignY=75&descAlign=60)
 
 ## About
 
