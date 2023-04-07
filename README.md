@@ -3,7 +3,7 @@
 <h3 align="center">
 	<a href="#about">About</a>
 	<span> · </span>
-	<a href="#️profile">Profile</a>
+	<a href="#profile">Profile</a>
 	<span> · </span>
 	<a href="#projects">Projects</a>
 </h3>
