@@ -1,12 +1,14 @@
-## My Profile
+# Libft - 나만의 라이브러리 만들기
 
-[![gyechoi's 42 stats](https://badge42.vercel.app/api/v2/clg4nlglu005408lb4d1pxbkq/stats?cursusId=21&coalitionId=85)](https://github.com/JaeSeoKim/badge42)
+몇 개의 C 표준 라이브러리 함수들과 같은 프로토타입을 가지고 같은 동작을 하는 함수들을 구현하고 표준 라이브러리에 없는 함수나 라이브러리 함수와 다르게 동작하도록 스펙이 주어진 함수들을 구현하는 과제이다. 직접 구현한 함수들로 만든 라이브러리는 이후의 과제에서 사용된다고 한다.
 
-## Projects
-42서울 이너서클(공통 과정)에서 수행한 프로젝트 목록입니다. 프로젝트 이름을 누르면 노션 페이지로 이동합니다.
+## 💡 공부한 것들
 
-|Project Name |Skill |Score |
-|:---:        |:---: |:---:	|
-|[Libft](https://gyeongsu1997.notion.site/Libft-66ba3bef388046e2b1b0c5755db0a8e5) |Algorithm |![gyechoi's 42 Libft Score](https://badge42.vercel.app/api/v2/clg4nlglu005408lb4d1pxbkq/project/3024476) |
-|[ft_printf](https://gyeongsu1997.notion.site/ft_printf-printf-6d6691397dcb4d8dac61bd502fc96207) |Algorithm |![gyechoi's 42 ft_printf Score](https://badge42.vercel.app/api/v2/clg4nlglu005408lb4d1pxbkq/project/3033503) |
-|[get_next_line](https://gyeongsu1997.notion.site/get_next_line-a7030ca80fe6435a838660a8206e0414)		|Algorithm |![gyechoi's 42 get_next_line Score](https://badge42.vercel.app/api/v2/clg4nlglu005408lb4d1pxbkq/project/3033502) |
+<details>
+<summary><b>함수의 반환형 앞에 static 키워드를 붙이는 이유</b></summary>
+
+ - 반환형 앞에 static 키워드를 붙이면 그 함수는 정적 함수가 되어 해당 소스파일 내부에서만 사용 가능한 함수가 된다.
+ - 프로젝트를 여러명의 개발자가 나누어 개발하는 경우, 각자 작성한 소스파일에서 함수 이름이 중복되는 경우를 피하기 위해서 사용한다.
+ - 함수 이름이 중복되는 경우 목적 파일을 만드는 것에는 문제가 없지만 만들어진 목적파일들을 링크하는 과정에서 오류가 발생한다.
+ 
+</details>
