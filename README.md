@@ -20,6 +20,8 @@ This is a record of what I have learned from 42cursus at Seoul campus.
 
 ## Projects
 
+You can move to the corresponding directory by pressing the project name.
+
 |Circle	|Project Name |Skills |Score |
 |:---:  |:---:        |:---: |:---: |
 |00	|[Libft](https://github.com/Gyeongsu1997/42cursus/tree/main/Libft) |Algorithm |![gyechoi's 42 Libft Score](https://badge42.vercel.app/api/v2/clg4nlglu005408lb4d1pxbkq/project/3024476) |
