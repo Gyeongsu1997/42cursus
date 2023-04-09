@@ -1,4 +1,4 @@
-![header](https://capsule-render.vercel.app/api?type=transparent&fontColor=703ee5&height=120&section=header&text=42cursus&fontSize=70&desc=in%20seoul%20campus&descAlignY=75&descAlign=60)
+![header](https://capsule-render.vercel.app/api?type=transparent&fontColor=703ee5&height=120&section=header&text=42cursus&fontSize=70&desc=at%20seoul%20campus&descAlignY=75&descAlign=60)
 
 <h3 align="center">
 	<a href="#about">About</a>
