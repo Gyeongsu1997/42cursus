@@ -20,7 +20,7 @@ This is a record of what I have learned from 42cursus at Seoul campus.
 
 ## Projects
 
-This is a list of projects I've worked on. You can move to the corresponding directory by pressing the project name.
+This is a list of projects I've worked on. You can move to the corresponding directory by clicking the project name.
 
 |Circle	|Project Name |Skills |Score |
 |:---:  |:---:        |:---: |:---: |
