@@ -12,7 +12,7 @@
 
 ## About
 
-42서울 본 과정을 진행하며 프로젝트를 통해 배운 것을 정리하였습니다.
+This is a record of what I have learned from 42cursus at Seoul campus.
 
 ## Profile
 
