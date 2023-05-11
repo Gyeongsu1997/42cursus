@@ -18,7 +18,7 @@ This is a list of projects I've worked on. You can move to the corresponding dir
 
 |Circle	|Project Name |Skills |Score |
 |:---:  |:---:        |:---:  |:---: |
-|00 |[00-Libft](https://github.com/Gyeongsu1997/Libft/tree/9e2d859b244637887a5ddb7309395a169de8c378)|Algorithm	|![gyechoi's 42 Libft Score](https://badge42.vercel.app/api/v2/clg4nlglu005408lb4d1pxbkq/project/3024476) |
+|00 |[Libft](https://github.com/Gyeongsu1997/Libft/tree/9e2d859b244637887a5ddb7309395a169de8c378)|Algorithm	|![gyechoi's 42 Libft Score](https://badge42.vercel.app/api/v2/clg4nlglu005408lb4d1pxbkq/project/3024476) |
 |01	|[ft_printf](https://github.com/Gyeongsu1997/42cursus/tree/main/ft_printf)			|Algorithm |![gyechoi's 42 ft_printf Score](https://badge42.vercel.app/api/v2/clg4nlglu005408lb4d1pxbkq/project/3033503) |
 |01	|[get_next_line](https://github.com/Gyeongsu1997/42cursus/tree/main/get_next_line)		|Algorithm |![gyechoi's 42 get_next_line Score](https://badge42.vercel.app/api/v2/clg4nlglu005408lb4d1pxbkq/project/3033502) |
 |01	|Born2beroot |Network & system administration |![gyechoi's 42 Born2beroot Score](https://badge42.vercel.app/api/v2/clg4nlglu005408lb4d1pxbkq/project/3033501) |
