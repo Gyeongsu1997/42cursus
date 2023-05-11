@@ -3,8 +3,6 @@
 <h3 align="center">
 	<a href="#about">About</a>
 	<span> · </span>
-	<a href="#profile">Profile</a>
-	<span> · </span>
 	<a href="#projects">Projects</a>
 </h3>
 
@@ -13,10 +11,6 @@
 ## About
 
 This is a record of what I have learned from 42cursus at Seoul campus.
-
-## Profile
-
-![gyechoi's 42 stats](https://badge42.vercel.app/api/v2/clg4nlglu005408lb4d1pxbkq/stats?cursusId=21&coalitionId=85)
 
 ## Projects
 
