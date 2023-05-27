@@ -7,9 +7,10 @@
 <details>
 <summary><b>file descriptor</b></summary>
  
- - 리눅스에서의 파일  디스크립터는 프로세스에서 열린 파일의 목록을 관리하는 테이블의 인덱스로 파일 디스크립터를 이용해 해당 파일의 주소를 참조하여 접근할 수 있다.
+ - 파일 디스크립터는 프로세스에서 열린 파일의 목록을 관리하는 테이블(file descriptor table)의 인덱스로 파일 디스크립터를 이용해 해당 파일의 주소를 참조하여 접근할 수 있다.
+ - File descriptor table은 PCB(Process Control Block)에 저장된다.
  - 파일 디스크립터는 0 이상의 정수값을 가지며 0은 표준 입력, 1은 표준 출력, 2는 표준 에러로 기본적으로 할당된다.
- - 따라서 프로세스에서 파일을 열면 3번부터 차례대로 할당받게 된다.
+ - 따라서 프로세스에서 파일을 열거나 생성하면 3번부터 차례대로 할당받게 된다.
  > 참고: [get_next_line](https://80000coding.oopy.io/4d3eba5f-5d2d-4bec-b0a2-fa058d67c643#56d19da82b7847a89d0eca867a9a2484)
 <br>
 </details>
