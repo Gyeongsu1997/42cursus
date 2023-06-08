@@ -16,7 +16,7 @@
 ## 💡 What i have learned
 
 <details>
-<summary><b>가상 머신(virtual machine)</b></summary>
+<summary><b>가상 머신(Virtual Machine)</b></summary>
  
  - 가상 머신은 CPU, RAM, 하드디스트 등의 컴퓨팅 환경을 소프트웨어로 구현한 가상의 컴퓨터를 의미한다.
  - 일반 컴퓨터에서처럼 가상 머신 위에서 운영체제나 응용 프로그램을 설치하고 실행할 수 있다.
