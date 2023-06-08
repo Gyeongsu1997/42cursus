@@ -24,7 +24,7 @@
  - 또한 examples에 ‘char is promoted to int.’라는 문장이 주석으로 달려있다.
  - 이 ‘default argument promotion’은 대체 무엇일까?
  - 이에 따르면 가변 인자로 들어온 int보다 작은 정수형(char, short 등)은 int형으로 변환되고 float형은 double형으로 변환된다고 한다.
- - 이것은 C 표준으로 정의되어 있으며 이 또한 지난번 Libft 과제에서 배운 K&R 방식과의 호환을 위한 것이라고 한다.
+ - 이것은 구조체의 바이트 패딩과 마찬가지로 메모리에 여분의 바이트를 추가함으로써 CPU의 부하를 덜어주는 역할을 한다고 한다.
 <br>
 </details>
 
