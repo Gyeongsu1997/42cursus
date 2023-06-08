@@ -10,7 +10,7 @@
 
 ## About
 
-This is a record of what I have learned from 42cursus at Seoul campus.
+This repository is a record of what I have learned through 42cursus at Seoul campus.
 
 ## Projects
 
