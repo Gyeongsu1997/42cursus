@@ -11,7 +11,7 @@
 ## 📘 About
 <b>가상화의 세계로</b>
 
-가상머신에 리눅스 운영체제를 설치하여 리눅스 커널 보안 모듈인 AppArmor, LVM을 이용한 파티션, SSH 서비스, 방화벽(UFW), 비밀번호 정책 및 sudo 정책 등을 설정하고 cron을 사용하여 주기적으로 쉘 스크립트를 실행하도록 설정하는 과제이다. 보너스 파트에서는 lighttpd, MariaDB, PHP를 사용하는 WordPress 웹사이트를 설치하고 기타 유용하다고 생각하는 서비스를 선택하여 설정하도록 요구하였다. 리눅스 서버를 설치하는 것이 처음이고 과제에서 요구하는 내용이 많아 오래 걸렸지만 가상 머신, 포트 포워딩 등의 용어를 새롭게 알게 되었고 SSH, 포트 등 익숙한 용어지만 정확히 모르고 사용하던 개념들을 정리할 수 있는 계기가 되었다.
+가상 머신에 리눅스 운영체제를 설치하여 리눅스 커널 보안 모듈인 AppArmor, LVM을 이용한 파티션, SSH 서비스, 방화벽(UFW), 비밀번호 정책 및 sudo 정책 등을 설정하고 cron을 사용하여 주기적으로 쉘 스크립트를 실행하도록 설정하는 과제이다. 보너스 파트에서는 lighttpd, MariaDB, PHP를 사용하는 WordPress 웹사이트를 설치하고 기타 유용하다고 생각하는 서비스를 선택하여 설정하도록 요구하였다. 리눅스 서버를 설치하는 것이 처음이고 과제에서 요구하는 내용이 많아 오래 걸렸지만 가상 머신, 포트 포워딩 등의 용어를 새롭게 알게 되었고 SSH, 포트 등 익숙한 용어지만 정확히 모르고 사용하던 개념들을 정리할 수 있는 계기가 되었다.
 
 ## 💡 What i have learned
 
@@ -27,50 +27,13 @@
 </details>
 
 <details>
-<summary><b>가변 인자 처리</b></summary>
+<summary><b>ISO image</b></summary>
 
- - 가변 인자를 처리하기 위해서는 stdarg.h 헤더파일을 include하고 헤더파일에 정의되어 있는 va_list 타입의 변수(이하 ap)를 선언한다.
- - va_list는 가변 인자의 주소를 담기 위한 포인터 변수 또는 포인터 변수를 포함하는 구조체로 정의되어 있다.
- - 이후 va_start 매크로로 ap를 가변 인자의 시작 주소로 초기화 해주어야 한다.
- - va_start 매크로는 void va_start(va_list ap, last)와 같은 프로토타입을 가지며 last에는 가변 인자가 오기 전 타입을 알고 있는 마지막 매개변수명을 넣어준다.
- - 이 last에 대해 man page에 아래와 같은 부연 설명이 적혀있다.
- > Because the address of this parameter is used in the va_start() macro, it should not be declared as a register variable, or as a function or an array type.
- - 처음에는 문자열도 array type이니 last에 넣으면 안되는것 아닌가 하고 생각했지만 문자열은 ‘\0’로 끝난다고 약속되어 있으니 문자열의 끝을 알 수 있으므로 사용할 수 있는것 같다.
- - ap를 초기화하면 va_arg 매크로를 통해 가변 인자를 하나씩 꺼내올 수 있다.
- - va_arg 매크로는 type va_arg(va_list ap, type)와 같은 프로토타입을 가지며 type에는 미리 알고 있는 가변 인자의 type을 넣어주어 해당 byte만큼의 데이터를 type 형으로 반환한다.
- - va_arg 매크로를 호출하면 ap가 변형되어 다음번에 호출할 때는 다음 가변 인자를 꺼내올 수 있다.
- - 가변 인자의 사용이 끝나면 va_end 매크로를 호출해 ap의 사용을 종료한다.
- - 매크로 사용 예시는 아래와 같다.
- ```c
- #include <stdarg.h>
- #include <unistd.h>
-
- int ft_printf(const char *fmt, ...)
- {
-	 va_list ap;
-	 char c;
-
-	 va_start(ap, fmt);
-	 while (*fmt)
-	 {
-		 if (*fmt == '%')
-		 {
-			 if (*(++fmt) == 'c')
-			 {
-				 c = va_arg(ap, int);
-				 write(1, &c, 1);
-			 }
-			 ...
-		 }
-		 else
-			 write(1, fmt, 1);
-		 ...
-		 fmt++;
-	 }
-	 va_end(ap);
-	 ...
- }
- ```
+ - 데비안(Debian) 공식 홈페이지에 들어가 운영체제를 설치하려고 하니 여러 이미지들 중 하나를 다운로드하라고 한다. 내가 알고 있던 이미지는 그림 파일 밖에 없어서 여기서 말하는 이미지가 무엇인지 혼동이 왔다. 찾아보니 ISO 이미지(ISO image)라고 한다.
+ - ISO 이미지는 광학 디스크(CD, DVD, BD 등)에 포함된 모든 파일 데이터를 담고 있는 파일이라고 한다.
+ - ISO 이미지를 이용하면 소프트웨어를 물리적인 매체를 이용하지 않고 네트워크를 통해 전송할 수 있으며 ISO 이미지를 다시 광학 디스크로 구울 수도 있다고 한다.
+ - 본 과제에서는 debian installer를 ISO 이미지 파일로 다운로드해서 가상 머신에서 가상 디스크를 마운트하여 운영체제를 설치하였다.
+ > 참고: [가상화 기술(전가상화, 반가상화, 호스트기반 가상화)쉽게 설명!](https://mamu2830.blogspot.com/2020/04/blog-post.html)
 <br>
 </details>
 
@@ -83,29 +46,6 @@
  > <b>💡 힙 영역은 메모리의 낮은 주소에서 높은 주소 방향으로 할당이 이루어지지만 스택 영역은 메모리의 높은 주소에서 낮은 주소 방향으로 할당이 이루어진다고 한다.</b>
  - 새롭게 안 사실이었고 이를 확인하기 위해 스택 영역에 위치한 변수들의 주소를 출력해 본 결과 실제로 높은 메모리 주소부터 할당이 되는 것을 확인하였다.
  - 다만 배열의 경우에는 다른 변수들 보다 스택 영역에서 높은 주소에 위치하고 배열의 각 원소들은 인덱스가 작을수록 낮은 주소에 채워지도록 저장되는것 같다.
- ```c
- #include <stdio.h>
-
- void test(int n1)
- {
-	 int n2;
-	 int arr[3];
-	 int n3;
-
-	 printf("address of arr[2]: %p\n", &arr[2]);
-	 printf("address of arr[1]: %p\n", &arr[1]);
-	 printf("address of arr[0]: %p\n", &arr[0]);
-	 printf("address of n1: %p\n", &n1);
-	 printf("address of n2: %p\n", &n2);
-	 printf("address of n3: %p\n", &n3);
- }
-
- int main(void)
- {
-	 test(0);
-	 return (0);
- }
- ```
  > 실행 결과
  <img width="491" alt="ft_printf_1" src="https://user-images.githubusercontent.com/97381683/230554949-1e791700-e572-4a13-b1d8-9f6b43f5d7fd.png">
 <br>
