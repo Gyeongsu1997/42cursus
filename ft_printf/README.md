@@ -25,6 +25,7 @@
  - 이 ‘default argument promotion’은 대체 무엇일까?
  - 이에 따르면 가변 인자로 들어온 int보다 작은 정수형(char, short 등)은 int형으로 변환되고 float형은 double형으로 변환된다고 한다.
  - 이것은 구조체의 바이트 패딩과 마찬가지로 메모리에 여분의 바이트를 추가함으로써 CPU의 부하를 덜어주는 역할을 한다고 한다.
+ > 참고: [ft_printf() 뽀개기 by suhshin](https://80000coding.oopy.io/d28bdc37-0e28-4a85-977a-55d205117418#d28bdc37-0e28-4a85-977a-55d205117418)
 <br>
 </details>
 
