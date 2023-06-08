@@ -1,4 +1,4 @@
-![header](https://capsule-render.vercel.app/api?type=transparent&fontColor=703ee5&height=120&section=header&text=ft_printf&fontSize=70)
+![header](https://capsule-render.vercel.app/api?type=transparent&fontColor=703ee5&height=120&section=header&text=Born2beRoot&fontSize=70)
 
 <h3 align="center">
 	<a href="#about">About</a>
@@ -9,20 +9,19 @@
 ---
 
 ## 📘 About
-<b>printf에 반환값이 있었다니..!</b>
+<b>가상화의 세계로</b>
 
-표준 라이브러리 함수인 printf를 구현하는 과제이다. 가변 인자라는 새로운 개념이 등장한다. 이와 관련해 스택 영역 등 몰랐던 용어들을 새롭게 알게 되었고 컴퓨터 구조 등 CS 공부의 필요성을 느낀 과제였다.
+가상머신에 리눅스 운영체제를 설치하여 AppArmor, LVM을 이용한 파티션, SSH 서비스, 방화벽(UFW), 비밀번호 정책 및 sudo 정책 등을 설정하고 cron을 사용하여 주기적으로 쉘 스크립트를 실행하도록 설정하는 과제이다. 보너스 파트에서는 lighttpd, MariaDB, PHP를 사용하는 WordPress 웹사이트를 설치하고 기타 유용하다고 생각하는 서비스를 선택하여 설정하도록 요구하였다. 리눅스 서버를 설치하는 것이 처음이고 과제에서 요구하는 내용이 많아 오래 걸렸지만 가상 머신, 포트 포워딩 등의 용어를 새롭게 알게 되었고 SSH, 포트 등 익숙한 용어지만 정확히 모르고 사용하던 개념들을 정리할 수 있는 계기가 되었다.
 
 ## 💡 What i have learned
 
 <details>
-<summary><b>default argument promotion</b></summary>
+<summary><b>가상 머신(virtual machine)</b></summary>
  
- - 가변 인자에 대해 공부하며 가장 의문이었던 부분은 ‘default argument promotion’이라는 것이다.
- - stdarg에 대한 man page를 보면 va_arg에 대한 설명 중 아래와 같은 문장이 있다.
- > If there is no next argument, or if type is not compatible with the type of the actual next argument (<b>as promoted according to the default argument promotions</b>), random errors will occur.
- - 또한 examples에 ‘char is promoted to int.’라는 문장이 주석으로 달려있다.
- - 이 ‘default argument promotion’은 대체 무엇일까?
+ - 가상 머신은 CPU, RAM, 하드디스트 등의 컴퓨팅 환경을 소프트웨어로 구현한 가상의 컴퓨터를 의미한다.
+ - 일반 컴퓨터에서처럼 가상 머신 위에서 운영체제나 응용 프로그램을 설치하고 실행할 수 있다.
+ - Oracle VM VirtualBox는 가상 머신을 구현하는 가상화 소프트웨어이다.
+ - 하나의 서버 컴퓨터에서 가상 머신을 여러 개 만들어 여러 서비스를 운영하면 하드웨어 자원을 최대한 활용할 수 있다고 한다.
  - 이에 따르면 가변 인자로 들어온 int보다 작은 정수형(char, short 등)은 int형으로 변환되고 float형은 double형으로 변환된다고 한다.
  - 이것은 C 표준으로 정의되어 있으며 이 또한 지난번 Libft 과제에서 배운 K&R 방식과의 호환을 위한 것이라고 한다.
 <br>
