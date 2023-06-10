@@ -124,12 +124,6 @@
 	 arr[0] = 0;
 	 return (0);
  }
-
-  int main(void)
-  {
-	  test(0);
-	  return (0);
-  }
  ```
  > 실행 결과
  <img width="579" alt="get_next_line_3" src="https://user-images.githubusercontent.com/97381683/230561149-c442fe1b-8d95-4350-a9a9-e1de61ae5bd5.png">
