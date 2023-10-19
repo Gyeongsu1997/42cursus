@@ -3,17 +3,17 @@
 <h3 align="center">
 	<a href="#about">About</a>
 	<span> · </span>
-	<a href="#whatihavelearned">What i have learned</a>
+	<a href="#what-i-have-learned">What i have learned</a>
 </h3>
 
 ---
 
-## 📘 About
+## About
 <b>나만의 라이브러리 만들기</b>
 
 몇 개의 C 표준 라이브러리 함수들과 같은 프로토타입을 가지고 같은 동작을 하는 함수들을 구현하고 표준 라이브러리에 없는 함수나 라이브러리 함수와 다르게 동작하도록 스펙이 주어진 함수들을 구현하는 과제이다. 직접 구현한 함수들로 만든 라이브러리는 이후의 과제에서 사용된다고 한다.
 
-## 💡 What i have learned
+## What i have learned
 
 <details>
 <summary><b>함수의 반환형 앞에 static 키워드를 붙이는 이유</b></summary>
