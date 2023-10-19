@@ -1,7 +1,7 @@
 ![header](https://capsule-render.vercel.app/api?type=transparent&fontColor=703ee5&height=120&section=header&text=Born2beRoot&fontSize=70)
 
 <h3 align="center">
-	<a href="#about">About</a>
+	[About](#about)
 	<span> · </span>
 	<a href="#what-i-have-learned">What i have learned</a>
 </h3>
