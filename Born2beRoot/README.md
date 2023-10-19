@@ -8,12 +8,12 @@
 
 ---
 
-## 📘 About
+## About
 <b>가상화의 세계로</b>
 
 가상 머신에 리눅스 운영체제를 설치하여 리눅스 커널 보안 모듈인 AppArmor, LVM을 이용한 파티션, SSH 서비스, 방화벽(UFW), 비밀번호 정책 및 sudo 정책 등을 설정하고 cron을 사용하여 주기적으로 쉘 스크립트를 실행하도록 설정하는 과제이다. 보너스 파트에서는 lighttpd, MariaDB, PHP를 사용하는 WordPress 웹사이트를 설치하고 기타 유용하다고 생각하는 서비스를 선택하여 설정하도록 요구하였다. 리눅스 서버를 설치하는 것이 처음이고 과제에서 요구하는 내용이 많아 오래 걸렸지만 가상 머신, 포트 포워딩 등의 용어를 새롭게 알게 되었고 SSH, 포트 등 익숙한 용어지만 정확히 모르고 사용하던 개념들을 정리할 수 있는 기회가 되었다.
 
-## 💡 What i have learned
+## What i have learned
 
 <details>
 <summary><b>가상 머신(Virtual Machine)</b></summary>
