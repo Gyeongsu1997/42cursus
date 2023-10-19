@@ -6,7 +6,9 @@
 	<a href="#whatihavelearned">What i have learned</a>
 </h3>
 
-<center>[About](##about) · [What i have learned](##what-i-have-learned)</center>
+<center>
+	[About](##about) · [What i have learned](##what-i-have-learned)
+</center>
 
 [About](#about)
 ---
