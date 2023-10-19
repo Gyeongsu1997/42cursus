@@ -3,17 +3,17 @@
 <h3 align="center">
 	<a href="#about">About</a>
 	<span> · </span>
-	<a href="#whatihavelearned">What i have learned</a>
+	<a href="#what-i-have-learned">What i have learned</a>
 </h3>
 
 ---
 
-## 📘 About
+## About
 <b>printf에 반환값이 있었다니..!</b>
 
 표준 라이브러리 함수인 printf를 구현하는 과제이다. 가변 인자라는 새로운 개념이 등장한다. 이와 관련해 스택 영역 등 몰랐던 용어들을 새롭게 알게 되었고 컴퓨터 구조 등 CS 공부의 필요성을 느낀 과제였다.
 
-## 💡 What i have learned
+## What i have learned
 
 <details>
 <summary><b>default argument promotion</b></summary>
