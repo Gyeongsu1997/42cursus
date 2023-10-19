@@ -3,16 +3,16 @@
 <h3 align="center">
 	<a href="#about">About</a>
 	<span> · </span>
-	<a href="#whatihavelearned">What i have learned</a>
+	<a href="#what-i-have-learned">What i have learned</a>
 </h3>
 
 ---
 
-## 📘 About
+## About
 
 파일 디스크립터(file descriptor)로부터 한 줄을 읽어들여 반환하는 함수를 구현하는 과제이다. 정적 변수라는 개념이 등장한다. 동적으로 할당한 메모리 관리의 어려움과 중요성을 느낄 수 있는 과제였다.
 
-## 💡 What i have learned
+## What i have learned
 
 <details>
 <summary><b>file descriptor</b></summary>
