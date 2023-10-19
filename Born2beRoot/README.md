@@ -3,7 +3,7 @@
 <h3 align="center">
 	[About](#about)
 	<span> · </span>
-	<a href="#what-i-have-learned">What i have learned</a>
+	[What i have learned](#what-i-have-learned)
 </h3>
 
 ---
