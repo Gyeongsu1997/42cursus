@@ -3,7 +3,7 @@
 <h3 align="center">
 	<a href="#about">About</a>
 	<span> · </span>
-	<a href="#whatihavelearned">What i have learned</a>
+	<a href="#what-i-have-learned">What i have learned</a>
 </h3>
 
 ---
