@@ -7,7 +7,8 @@
 </h3>
 
 <center>
-	[About](##about) · [What i have learned](##what-i-have-learned)
+	[About](##about)
+	[What i have learned](##what-i-have-learned)
 </center>
 
 [About](#about)
