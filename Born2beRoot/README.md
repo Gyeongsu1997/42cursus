@@ -1,8 +1,10 @@
 ![header](https://capsule-render.vercel.app/api?type=transparent&fontColor=703ee5&height=120&section=header&text=Born2beRoot&fontSize=70)
 
-	[About](#about)
+<h3 align="center">
+	<a href="#about">About</a>
 	<span> · </span>
-	[What i have learned](#what-i-have-learned)
+	<a href="#whatihavelearned">What i have learned</a>
+</h3>
 
 ---
 
