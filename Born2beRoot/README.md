@@ -8,6 +8,8 @@
 
 <center>
 	[About](#about)
+</center>
+<center>
 	[What i have learned](#what-i-have-learned)
 </center>
 
