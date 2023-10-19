@@ -16,7 +16,7 @@ This repository is a record of what I have learned through 42cursus at Seoul cam
 
 This is a list of projects I've worked on. You can move to the corresponding directory by clicking the project name.
 
-|Circle	|Project Name |Skills |Score |
+|Circle	|Project Name |Skills |Bonus |
 |:---:  |:---:        |:---:  |:---: |
 |00 |[Libft](https://github.com/Gyeongsu1997/42cursus/tree/main/Libft) |Algorithm |![gyechoi's 42 Libft Score](https://badge42.vercel.app/api/v2/clg4nlglu005408lb4d1pxbkq/project/3024476) |
 |01 |[ft_printf](https://github.com/Gyeongsu1997/42cursus/tree/main/ft_printf) |Algorithm |![gyechoi's 42 ft_printf Score](https://badge42.vercel.app/api/v2/clg4nlglu005408lb4d1pxbkq/project/3033503) |
