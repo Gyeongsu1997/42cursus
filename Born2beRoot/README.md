@@ -1,10 +1,8 @@
 ![header](https://capsule-render.vercel.app/api?type=transparent&fontColor=703ee5&height=120&section=header&text=Born2beRoot&fontSize=70)
 
-<h3 align="center">
 	[About](#about)
 	<span> · </span>
 	[What i have learned](#what-i-have-learned)
-</h3>
 
 ---
 
