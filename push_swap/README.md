@@ -4,6 +4,8 @@
 	<a href="#about">About</a>
 	<span> · </span>
 	<a href="#usage">Usage</a>
+	<span> · </span>
+	<a href="#visualization">Visualization</a>
 </h3>
 
 ---
