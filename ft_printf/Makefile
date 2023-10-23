@@ -9,15 +9,15 @@ OBJS = $(SRCS:.c=.o)
 all : $(NAME)
 
 $(NAME) : $(OBJS)
-	make -C Libft all
-	cp Libft/libft.a $(NAME)
+	make -C libft all
+	cp libft/libft.a $(NAME)
 	ar -rc $(NAME) $(OBJS)
 
 %.o : %.c $(HEADER)
 	$(CC) $(CFLAGS) -c $<
 
 clean :
-	make -C Libft fclean
+	make -C libft fclean
 	rm -f $(OBJS)
 
 fclean : clean
