@@ -22,3 +22,4 @@ This is a list of projects I've worked on. You can move to the corresponding dir
 |01 |[ft_printf](https://github.com/Gyeongsu1997/42cursus/tree/main/ft_printf) |Algorithm | |
 |01 |[get_next_line](https://github.com/Gyeongsu1997/42cursus/tree/main/get_next_line) |Algorithm |○ |
 |01 |[Born2beroot](https://github.com/Gyeongsu1997/42cursus/tree/main/Born2beRoot) |Network & system administration |○ |
+|02 |[push_swap](https://github.com/Gyeongsu1997/42cursus/tree/main/Born2beRoot) |Sorting algorithms | |
