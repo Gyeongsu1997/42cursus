@@ -1,1 +1,30 @@
-ss
+![header](https://capsule-render.vercel.app/api?type=transparent&fontColor=703ee5&height=120&section=header&text=push_swap&fontSize=70)
+
+<h3 align="center">
+	<a href="#about">About</a>
+	<span> · </span>
+	<a href="#what-i-have-learned">What i have learned</a>
+</h3>
+
+---
+
+## About
+
+스택 두 개를 사용하여 인자로 들어온 숫자들을 정렬하는 과제이다. 스택에 적용할 수 있는 연산은 아래와 같이 총 11개이다.
+
+- sa (swap a): stack a의 상단 2개의 원소를 서로 바꾼다.
+- sb (swap b): stack b의 상단 2개의 원소를 서로 바꾼다.
+- ss: sa와 sb를 동시에 수행한다.
+- pa (push a): stack b의 상단에 있는 원소를 꺼내어 stack a의 상단에 넣는다.
+- pb (push b): stack a의 상단에 있는 원소를 꺼내어 stack b의 상단에 넣는다.
+- ra (rotate a): stack a의 모든 원소를 한칸씩 위로 올린다. 연산 수행 후 가장 상단에 있던 원소가 가장 하단의 원소가 된다.
+- rb (rotate b): stack b의 모든 원소를 한칸씩 위로 올린다. 연산 수행 후 가장 상단에 있던 원소가 가장 하단의 원소가 된다.
+- rr: ra와 rb를 동시에 수행한다.
+- rra (reverse rotate a): stack a의 모든 원소를 한칸씩 아래로 내린다. 연산 수행 후 가장 하단에 있던 원소가 가장 상단의 원소가 된다.
+- rrb (reverse rotate b): stack b의 모든 원소를 한칸씩 아래로 내린다. 연산 수행 후 가장 하단에 있던 원소가 가장 상단의 원소가 된다.
+- rrr: rra와 rrb를 동시에 수행한다.
+
+위 명령어들을 최대한 적게 사용하여 정렬하는 것이 목표이다.
+
+## What i have learned
+
