@@ -36,4 +36,7 @@
 <img width="604" alt="push_swap_1" src="https://github.com/Gyeongsu1997/42cursus/assets/97381683/b64f61e0-e101-4d12-8e17-6e51b60091f3">
 
 ## Visualization
+
+한 카뎃분이 만드신 [웹 기반 Visulizer](https://push-swap-visualizer.vercel.app/)를 이용하여 실행 과정을 시각화해보았다. 합병 정렬 알고리즘을 사용하여 구현했기에 처음에 여러 개의 작은 삼각형들로 쪼개졌다가 삼각형들이 합쳐지는 과정을 반복하며 정렬되는 것을 확인할 수 있다.
+
 ![push_swap_500](https://github.com/Gyeongsu1997/42cursus/assets/97381683/4c8f7e1f-86df-461e-8d25-d29cd32fe6c8)
