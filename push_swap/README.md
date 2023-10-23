@@ -3,7 +3,7 @@
 <h3 align="center">
 	<a href="#about">About</a>
 	<span> · </span>
-	<a href="#what-i-have-learned">What i have learned</a>
+	<a href="#usage">Usage</a>
 </h3>
 
 ---
@@ -34,3 +34,6 @@
 3. 인자로 받은 수들을 정렬하기 위해 필요한 연산이 표준 출력으로 출력된다.
 
 <img width="604" alt="push_swap_1" src="https://github.com/Gyeongsu1997/42cursus/assets/97381683/b64f61e0-e101-4d12-8e17-6e51b60091f3">
+
+## Visualization
+![push_swap_500](https://github.com/Gyeongsu1997/42cursus/assets/97381683/4c8f7e1f-86df-461e-8d25-d29cd32fe6c8)
