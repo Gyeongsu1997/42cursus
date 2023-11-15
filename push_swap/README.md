@@ -35,7 +35,7 @@
 (입력한 수들은 stack a의 초기 상태를 의미하여 첫번째 인수가 stack a의 top에 해당한다. stack b는 처음에 비어있는 상태이다.)
 3. 인자로 받은 수들을 정렬하기 위해 필요한 연산이 표준 출력으로 출력된다.
 
-<img width="604" alt="push_swap_1" src="https://github.com/Gyeongsu1997/42cursus/assets/97381683/b64f61e0-e101-4d12-8e17-6e51b60091f3">
+<img width="604" alt="push_swap_1" src="https://github.com/Gyeongsu1997/42cursus/assets/97381683/f73d8c9c-1172-4710-acd2-52d1872175f7">
 
 ## Visualization
 
